@@ -1,18 +1,29 @@
+.bodymargins {
+    margin: 0px;
+}
 
 .firstsection {
     background-color: #D5FFD0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .secondsection {
     background-color: #DFCCFB;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contactme{
     background-color: #FDFFAE;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .workhistory{
     background-color: #FEDEFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 table, th, td {
