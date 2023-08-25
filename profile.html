@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="css/profile-styles.css" />
+    <link rel="icon" href="images/favicon.ico" />
+</head>
+
+<body>
+    <div class="firstsection">
+        <h1>Navigate To</h1>
+        <nav>
+            <ul>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                <li><a href="#Music Samples">Music Samples</a></li>
+                <li><a href="#Work History">Work History</a></li>
+                <li><a href="#Contact Me">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <h1>Profile - Andrew Lall</h1>
+        <section id="About Me">
+            <figure>
+                <img src="images/emilio-rodriguez-emkun-drizzt.jpg" width="300" alt="My Profile Pic"/>
+                <figcaption>Fig.1 - Pic of me</figcaption>
+            </figure>
+    </div>
+
+    <div class="secondsection">
+        <h2>About Me</h2>
+            <ul>
+                <li>I was born in Menzoberranzan</li>
+                <li>I currently reside in Northwest Faerûn</li>
+                <li>Current occupation is Elven Ranger</li>
+                <li>I enjoy having a pint at Mithral Hall with my companions</li>
+            </ul>
+        </section>
+
+        <section id="Interests">
+        <h2>Interests</h2>
+            <ul>
+                <li>Swordplay</li>
+                <li>Magic</li>
+                <li>Hunting/Fishing</li>
+                <li>Reading</li>
+                <li><strong>DJ'ing at Fae Parties</strong></li>
+            </ul>
+        </section>
+        
+        <section id="Music Samples">
+            <h2>My Music Sample(s)</h2>
+            <audio controls loop>
+                <source src="/sample-9s.mp3" type="audio/mpeg">
+                Your browser does not support HTML5 audio. Here is <a href="/sample-9s.mp3">a link to the audio</a> instead.
+            </audio>
+            <audio controls loop>
+                <source src="/sample-3s.mp3" type="audio/mpeg">
+                Your browser does not support HTML5 audio. Here is <a href="/sample-3s.mp3">a link to the audio</a> instead.
+            </audio>
+        </section>
+    </div>
+
+    <div class="workhistory">
+        <section id="Work History">
+            <h2>Work History</h2>
+            <table style="width:100%">
+                <tr>
+                <th>Employer</th>
+                <th>Employment</th>
+                <th>Job Description</th>
+                </tr>
+                <tr>
+                <td>Various Merchant Caravans</td>
+                <td>Forest Ranger</td>
+                <td>Guide Merchant Caravans safely through the Dark Forest</td>
+                </tr>
+                <tr>
+                <td>Town Of Good Mead</td>
+                <td>Orc Hunter</td>
+                <td>Protect the town from raiding Orc clans</td>
+                </tr>
+            </table>
+        </section>
+    </div>
+
+    <div class="contactme">  
+        <section id="Contact Me">
+            <h1>Contact Me</h1> 
+            <form action="https://mywebserver.com" method="post">
+            <fieldset>
+                <legend>Your Information</legend>
+                <div>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Your First Name" />
+                </div>
+                <div>
+                    <label for="LastName">Last Name:</label><input type="text" id="LastName" name="lastName" placeholder="Your Last Name" />
+                </div>
+                <div>
+                    <label for="YourEmail">Your Email:</label><input type="email" id="YourEmail" name="email" placeholder="Your Email Address" />
+                </div>
+            </fieldset>
+        </section>
+
+        <footer>
+            <p><small>© All Image and Audio property of Drizzt Do'Urden</small></p>
+        </footer>
+    </div> 
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+
+.firstsection {
+    background-color: #D5FFD0;
+}
+
+.secondsection {
+    background-color: #DFCCFB;
+}
+
+.contactme{
+    background-color: #FDFFAE;
+}
+
+.workhistory{
+    background-color: #FEDEFF;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  th, td {
+    padding: 5px;
+  }
+
+  tr:hover {background-color: coral;}
