@@ -35,3 +35,7 @@ table, th, td {
   }
 
   tr:hover {background-color: coral;}
+
+  img:hover{
+    width: 600px;
+  }
