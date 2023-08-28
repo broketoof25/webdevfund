@@ -43,9 +43,16 @@ h1, h2{
 }
 
 .contactme{
-    background-color: #FDFFAE;
+    background-image: url(../images/mario-fernandes-companionshall.png);
+    background-size: contain;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 1.5em;
+    color: #FFD3A3;
+}
+
+.contacth1 {
+    color: #862B0D
 }
 
 .workhistory{
@@ -56,6 +63,14 @@ h1, h2{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #F7FFE5 , #C4D7B2, #A0C49D, #A2A378, #83764F);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-shadow: 10px 10px 5px 12px #16FF00;
 }
 
 table, th, td {
