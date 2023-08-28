@@ -1,0 +1,119 @@
+.bodymargins {
+    margin: 0px;
+}
+
+h1, h2{
+    padding-left: 10px;
+}
+
+.pic-h1 {
+    padding-top: 10px;
+}
+
+.navigate {
+    background-color: #D5FFD0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profile-al {
+    background-image: url("../images/beautiful-shot-forest-with-tall-green-trees.png");
+    background-position: center center;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #82CD47;
+}
+
+.secondsection {
+    background-image: url("../images/Sword-Coast-Map_MedRes.png");
+    background-position-x: right;
+    background-size: cover;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.second-h2{
+    color: #0014FF
+}
+
+.fudge {
+    color: #FFD700
+}
+
+.contactme{
+    background-color: #FDFFAE;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.workhistory{
+    background-image: url(../images/caravan.png);
+    background-position: center center;
+    background-size:cover;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+
+th, td {
+    padding: 5px;
+  }
+
+
+
+tr:hover {background-color: coral;}
+
+img:hover{
+    width: 400px;
+  }
+
+.font-effect-fire {
+    font-family: "Trirong", serif;
+    font-size: 1em;
+    position: fixed; 
+}
+
+.font-effect-neon {
+    font-family: "Trirong", serif;
+}
+
+.aboutme {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+.interest{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+.musicsamples{
+    display: inline-block;
+    position: relative;
+    left: 300px;
+}
+
+.work{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+}
+
+.contact{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+}
+
+audio {
+    width: 250px;
+}
